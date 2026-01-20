@@ -1,7 +1,7 @@
 {
-    "name": "@z4phdev/baileys",
+    "name": "@xh_clinton/baileys-mod",
     "version": "2.0.3",
-    "description": "WhatsApp API Modification By Z",
+    "description": "WhatsApp API Modification By xhclinton",
     "keywords": [
         "whatsapp",
         "baileys",
@@ -9,11 +9,11 @@
         "whatsapp-chat",
         "whatsapp-group",
         "botwa",
-        "z4phdev"
+        "bails"
     ],
-    "homepage": "https://github.com/z4phdev/baileys",
+    "homepage": "https://github.com/xhclintohn/Baileys",
     "repository": {
-        "url": "https://github.com/z4phdev/baileys"
+        "url": "https://github.com/xhclintohn/Baileys"
     },
     "license": "MIT",
     "author": "Adhiraj Singh",
