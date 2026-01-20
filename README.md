@@ -89,24 +89,13 @@ Use npm aliasing to replace the original package with this enhanced version:
 }
 ```
 
-#### Using NPM
-```json
-// In your package.json
-"dependencies": {
-    "@whiskeysockets/baileys": "npm:@xh_clinton/baileys-mod@latest"
-}
-```
 
 Then run `npm install`.
 
 **Note:** This will make your imports of `@whiskeysockets/baileys` resolve to this enhanced package.
 
-### **Method 2: Via npm (Recommended for Production)**
-```bash
-npm install @xh_clinton/baileys-mod
-```
 
-### **Method 3: Directly from GitHub**
+### **Method 2: Directly from GitHub**
 Install the latest development version directly from the source repository:
 
 ```bash
@@ -114,7 +103,7 @@ Install the latest development version directly from the source repository:
 npm install https://github.com/xhclintohn/Baileys.git
 ```
 
-### **Method 4: Local Development Setup**
+### **Method 3: Local Development Setup**
 For contributing or local testing, install from a local directory:
 
 ```bash
@@ -126,10 +115,9 @@ cd your-project
 npm install /path/to/cloned/Baileys
 ```
 
-### **Method 5: Using Yarn**
+### **Method 4: Using Yarn**
 ```bash
-yarn add @xh_clinton/baileys-mod
-# or from GitHub
+# From GitHub
 yarn add https://github.com/xhclintohn/Baileys.git
 ```
 
