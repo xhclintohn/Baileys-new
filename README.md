@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/@xh_clinton/baileys-mod.svg?style=for-the-badge)](https://www.npmjs.com/package/@xh_clinton/baileys-mod)
+[![npm version](https://img.shields.io/npm/v/toxic-baileys.svg?style=for-the-badge)](https://www.npmjs.com/package/toxic-baileys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![npm downloads](https://img.shields.io/npm/dm/toxic-baileys.svg?style=for-the-badge)](https://www.npmjs.com/package/toxic-baileys)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/xhclintohn/Baileys)
@@ -11,7 +11,7 @@
 
 A professionally enhanced, feature-rich version of the Baileys WhatsApp Web API. Built for developers requiring robust WhatsApp automation with modern tooling and comprehensive documentation.
 
-**Maintainer:** 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧
+**Maintainer:** 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧 [Dev]
 
 ---
 
@@ -89,13 +89,24 @@ Use npm aliasing to replace the original package with this enhanced version:
 }
 ```
 
+#### Using NPM
+```json
+// In your package.json
+"dependencies": {
+    "@whiskeysockets/baileys": "npm:toxic-baileys@latest"
+}
+```
 
 Then run `npm install`.
 
 **Note:** This will make your imports of `@whiskeysockets/baileys` resolve to this enhanced package.
 
+### **Method 2: Via npm (Recommended for Production)**
+```bash
+npm install toxic-baileys
+```
 
-### **Method 2: Directly from GitHub**
+### **Method 3: Directly from GitHub**
 Install the latest development version directly from the source repository:
 
 ```bash
@@ -103,7 +114,7 @@ Install the latest development version directly from the source repository:
 npm install https://github.com/xhclintohn/Baileys.git
 ```
 
-### **Method 3: Local Development Setup**
+### **Method 4: Local Development Setup**
 For contributing or local testing, install from a local directory:
 
 ```bash
@@ -115,9 +126,10 @@ cd your-project
 npm install /path/to/cloned/Baileys
 ```
 
-### **Method 4: Using Yarn**
+### **Method 5: Using Yarn**
 ```bash
-# From GitHub
+yarn add toxic-baileys
+# or from GitHub
 yarn add https://github.com/xhclintohn/Baileys.git
 ```
 
@@ -155,7 +167,7 @@ async function connectToWhatsApp() {
             console.log('✅ Successfully connected to WhatsApp!');
             // Send a welcome message to yourself
             const selfJid = sock.user.id;
-            sock.sendMessage(selfJid, { text: 'Hello! I am online using @xh_clinton/baileys-mod 🤖' });
+            sock.sendMessage(selfJid, { text: 'Hello! I am online using toxic-baileys 🤖' });
         }
     });
 
