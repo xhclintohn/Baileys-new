@@ -4,14 +4,14 @@
 
 [![npm version](https://img.shields.io/npm/v/@xh_clinton/baileys-mod.svg?style=for-the-badge)](https://www.npmjs.com/package/@xh_clinton/baileys-mod)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![npm downloads](https://img.shields.io/npm/dm/@xh_clinton/baileys-mod.svg?style=for-the-badge)](https://www.npmjs.com/package/@xh_clinton/baileys-mod)
+[![npm downloads](https://img.shields.io/npm/dm/toxic-baileys.svg?style=for-the-badge)](https://www.npmjs.com/package/toxic-baileys)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/xhclintohn/Baileys)
 
 </div>
 
 A professionally enhanced, feature-rich version of the Baileys WhatsApp Web API. Built for developers requiring robust WhatsApp automation with modern tooling and comprehensive documentation.
 
-**Maintainer:** 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧 [Dev]
+**Maintainer:** 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧
 
 ---
 
