@@ -16,7 +16,7 @@
         "url": "https://github.com/xhclintohn/Baileys"
     },
     "license": "MIT",
-    "author": "Adhiraj Singh",
+    "author": "xh_clinton",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [

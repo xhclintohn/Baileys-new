@@ -1,4 +1,4 @@
-# Baileys-MOD (Super Baileys) ⭐
+# Baileys-MOD by xh_clinton
 
 <div align="center">
 
@@ -11,7 +11,7 @@
 
 A professionally enhanced, feature-rich version of the Baileys WhatsApp Web API. Built for developers requiring robust WhatsApp automation with modern tooling and comprehensive documentation.
 
-**Maintainer:** 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧 [Dev]
+**Maintainer:** xh_clinton
 
 ---
 
@@ -167,7 +167,7 @@ async function connectToWhatsApp() {
             console.log('✅ Successfully connected to WhatsApp!');
             // Send a welcome message to yourself
             const selfJid = sock.user.id;
-            sock.sendMessage(selfJid, { text: 'Hello! I am online using toxic-baileys 🤖' });
+            sock.sendMessage(selfJid, { text: 'Hello! I am online using toxic-baileys' });
         }
     });
 
@@ -587,7 +587,7 @@ module.exports = {
         );
       }
 
-      const defaultCaption = `Group status Posted By Toxic-MD✅\n\nJOIN\nhttps://chat.whatsapp.com/GoXKLVJgTAAC3556FXkfFI?mode=wwt`;
+      const defaultCaption = `Group status Posted By xh_clinton\n\nPowered by toxic-baileys`;
 
       if (/image/.test(mime)) {
         const buffer = await client.downloadMediaMessage(quoted);
@@ -933,11 +933,8 @@ The official WhatsApp website can be found at https://whatsapp.com. "WhatsApp" a
 
 Distributed under the MIT License. See the LICENSE file in the repository for more information.
 
-### Third-Party Credits
-This project is based on the excellent work of:
-- Baileys by WhiskeySockets
-- Signal Protocol implementations
-- Various open-source contributors
+### Credits
+This project is maintained by xh_clinton
 
 ---
 
@@ -953,7 +950,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 <div align="center">
 
-🌟 Crafted with ❤️ by 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧 [Dev]
+Crafted by xh_clinton
 
 Empowering developers with powerful WhatsApp automation tools
 
